@@ -1,0 +1,193 @@
+{
+  "subject_profile": {
+    "first_name": "James",
+    "last_name": "West",
+    "gender": "male",
+    "age": 29,
+    "weight": 194,
+    "nationality": "usa",
+    "service": "army",
+    "rank": "Captain (OF-2)"
+  },
+  "base_values": {
+    "initiative": 7,
+    "rads": 47,
+    "load": 106,
+    "throw_range": 31,
+    "unarmed_damage": 3
+  },
+  "attributes_and_skills": [
+    {
+      "name": "strength",
+      "stat": 7,
+      "skills": [
+        {
+          "name": "aircraft mechanic",
+          "level": null
+        },
+        {
+          "name": "archery",
+          "level": null
+        },
+        {
+          "name": "armed martial arts",
+          "level": 3
+        },
+        {
+          "name": "autogun",
+          "level": null
+        },
+        {
+          "name": "grenade launcher",
+          "level": null
+        },
+        {
+          "name": "heavy artillery",
+          "level": null
+        },
+        {
+          "name": "heavy gun",
+          "level": null
+        },
+        {
+          "name": "mechanic",
+          "level": null
+        },
+        {
+          "name": "small arms",
+          "level": 7,
+          "sub-skills": [
+            {
+              "name": "pistol",
+              "level": 3
+            },
+            {
+              "name": "rifle",
+              "level": 7
+            }
+          ]
+        },
+        {
+          "name": "thrown weapon",
+          "level": 1
+        },
+        {
+          "name": "unarmed martial arts",
+          "level": 5
+        }
+      ]
+    },
+    {
+      "name": "constitution",
+      "stat": 9,
+      "skills": [
+        {
+          "name": "climbing",
+          "level": null
+        },
+        {
+          "name": "combat engineer",
+          "level": null
+        },
+        {
+          "name": "parachute",
+          "level": 1
+        },
+        {
+          "name": "riding",
+          "level": null
+        },
+        {
+          "name": "scuba",
+          "level": null
+        },
+        {
+          "name": "small watercraft",
+          "level": null
+        },
+        {
+          "name": "swimming",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "name": "agility",
+      "stat": 5,
+      "skills": [
+        {
+          "name": "acrobatics",
+          "level": null
+        },
+        {
+          "name": "forgery",
+          "level": null
+        },
+        {
+          "name": "ground vehicle",
+          "level": 3,
+          "sub-skills": [
+            {
+              "name": "motorcycle",
+              "level": 1
+            },
+            {
+              "name": "tracked",
+              "level": 1
+            },
+            {
+              "name": "wheeled",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "name": "gunsmith",
+          "level": null
+        },
+        {
+          "name": "hovercraft",
+          "level": null
+        },
+        {
+          "name": "intrusion",
+          "level": null
+        },
+        {
+          "name": "machinist",
+          "level": null
+        },
+        {
+          "name": "pilot",
+          "level": null,
+          "sub-skills": [
+            {
+              "name": "fixed-wing",
+              "level": null
+            },
+            {
+              "name": "rotary-wing",
+              "level": null
+            }
+          ]
+        },
+        {
+          "name": "snow skiing",
+          "level": null
+        },
+        {
+          "name": "stealth",
+          "level": 3
+        },
+        {
+          "name": "tac missile",
+          "level": 0
+        },
+        {
+          "name": "warhead",
+          "level": null
+        }
+      ]
+    }
+  ]
+}
