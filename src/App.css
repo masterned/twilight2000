@@ -7,16 +7,15 @@
 body {
   font-family: Courier, monospace;
   padding: 3em;
-  filter: blur(0.05em);
+  filter: blur(0.04em);
 }
 
-h2 {
-  font-size: larger;
+h1, h2, h3 {
   text-decoration: underline;
 }
 
 .danger {
-  color: #b40000;
+  color: #be0000;
   text-shadow: rgba(255, 0, 0, 1) 0px 0px 10px;
 }
 
@@ -25,10 +24,9 @@ h2 {
   text-shadow: rgba(255, 255, 0, 0.8) 0px 0px 10px;
 }
 
-.attribute {
-  margin: 1em;
-}
-
-#attributes {
+article {
+  gap: 2rem;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
 }

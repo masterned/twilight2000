@@ -1,7 +1,7 @@
 {
+  "username": "james_west",
   "subject_profile": {
-    "first_name": "James",
-    "last_name": "West",
+    "name": "James West",
     "gender": "male",
     "age": 29,
     "weight": 194,
@@ -16,7 +16,7 @@
     "throw_range": 31,
     "unarmed_damage": 3
   },
-  "attributes_and_skills": [
+  "attributes": [
     {
       "name": "strength",
       "stat": 7,
@@ -185,6 +185,140 @@
         },
         {
           "name": "warhead",
+          "level": null
+        }
+      ]
+    },
+    {
+      "name": "education",
+      "stat": 7,
+      "skills": [
+        {
+          "name": "biology",
+          "level": null
+        },
+        {
+          "name": "chemistry",
+          "level": null
+        },
+        {
+          "name": "civil_engineer",
+          "level": null
+        },
+        {
+          "name": "computers",
+          "level": 1
+        },
+        {
+          "name": "electronis",
+          "level": null
+        },
+        {
+          "name": "excavation",
+          "level": null
+        },
+        {
+          "name": "geology",
+          "level": null
+        },
+        {
+          "name": "medical",
+          "level": null,
+          "sub-skills": [
+            {
+              "name": "diagnosis",
+              "level": null
+            },
+            {
+              "name": "trauma aid",
+              "level": null
+            },
+            {
+              "name": "surgery",
+              "level": null
+            }
+          ]
+        },
+        {
+          "name": "matallurgy",
+          "level": null
+        },
+        {
+          "name": "meteorology",
+          "level": null
+        }
+      ]
+    },
+    {
+      "name": "charisma",
+      "stat": 6,
+      "skills": [
+        {
+          "name": "disguise",
+          "level": null
+        },
+        {
+          "name": "instruction",
+          "level": null
+        },
+        {
+          "name": "interrogation",
+          "level": null
+        },
+        {
+          "name": "languages",
+          "level": 0,
+          "sub-skills": [
+            {
+              "name": "english",
+              "level": 10
+            },
+            {
+              "name": "polish",
+              "level": 10
+            }
+          ]
+        },
+        {
+          "name": "leadership",
+          "level": 2
+        },
+        {
+          "name": "persuasion",
+          "level": 4
+        }
+      ]
+    },
+    {
+      "name": "intelligence",
+      "stat": 8,
+      "skills": [
+        {
+          "name": "farming",
+          "level": null
+        },
+        {
+          "name": "forward observer",
+          "level": null
+        },
+        {
+          "name": "navigation",
+          "level": 3
+        },
+        {
+          "name": "observation",
+          "level": 1
+        },
+        {
+          "name": "scrounging",
+          "level": null
+        },
+        {
+          "name": "survival",
+          "level": 2
+        },
+        {
+          "name": "tracking",
           "level": null
         }
       ]
