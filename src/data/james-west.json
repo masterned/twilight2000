@@ -1,6 +1,6 @@
 {
   "username": "james_west",
-  "subject_profile": {
+  "profile": {
     "name": "James West",
     "gender": "male",
     "age": 29,
@@ -323,5 +323,25 @@
         }
       ]
     }
-  ]
+  ],
+  "medical": {
+    "hits": {
+      "head": 35,
+      "chest": 400,
+      "abdomen": 2,
+      "right_arm": 0,
+      "left_arm": 17,
+      "right_leg": 0,
+      "left_leg": 0
+    },
+    "caps": {
+      "head": 18,
+      "chest": 48,
+      "abdomen": 32,
+      "right_arm": 32,
+      "left_arm": 32,
+      "right_leg": 32,
+      "left_leg": 32
+    }
+  }
 }

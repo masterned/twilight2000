@@ -12,6 +12,15 @@ body {
 
 h1, h2, h3 {
   text-decoration: underline;
+  text-transform: uppercase;
+}
+
+th {
+  text-transform: uppercase;
+}
+
+th, td {
+  padding: 0.25rem;
 }
 
 .danger {
@@ -22,6 +31,12 @@ h1, h2, h3 {
 .warning {
   color: #b4b400;
   text-shadow: rgba(255, 255, 0, 0.8) 0px 0px 10px;
+}
+
+.error {
+  color: black;
+  background-color: #be0000;
+  text-shadow: rgba(255, 0, 0, 1);
 }
 
 article {

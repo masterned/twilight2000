@@ -5,7 +5,7 @@ const getEntries = obj => Object.entries(obj)
 const Section = ({ name, data = {} }) => {
     const entries = getEntries(data)
     return <section id={name}>
-        <h2>{name.toLocaleUpperCase()}</h2>
+        <h2>{name}</h2>
         <table>
             <tbody>
                 {entries.map((entry, i) => <tr key={i}>
